@@ -1,0 +1,215 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+
+}
+
+a:hover{
+
+    color: #800080;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -webkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+
+}
+a:active {color: #8ce4a6}
+
+/*golova*/
+.header{
+background: url(img/mramorshapka.png) center no-repeat ;
+ background-size: cover;
+ height: 150px;
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav h1{
+    padding: 10px 0px;
+    text-align: center;
+    font-size: 60px;
+}
+
+/*portrey philisofov main*/
+
+.section img {
+    width: 320px;
+    height: 400px;
+
+}
+
+.section{
+    background: #f6f    5f4;
+    padding: 60px 0px;
+}
+
+.section h2{
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.philos-photo{
+    max-width: 320px;
+    background: #fff;
+
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.philos-photo:hover{
+
+    background: #f0e891;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.pholos-imy{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.philos-photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    grid-column-gap: 120px;
+    grid-row-gap: 30px;
+}
+
+
+.pholos-photos-last{
+    padding: 30px;
+   display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/*footer*/
+.footer{
+ background: url(img/mramorshapka.png) center no-repeat ;
+ background-size: cover;
+ height: 120px;
+}
+
+.info p {
+    font-size: 30px;
+}
+
+.info{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*ssilki na philosofov*/
+
+.philos-photo-infos{
+     max-width: 320px;
+    background: #fff;
+    max-height: 550px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+
+.philos-photo-infos:hover{
+
+    background: #f0e891;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+
+.philos-photo-infos-citata{
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.philos-info{
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.philos-info h1{
+    margin: auto;
+    font-family: oranienbaum;
+    font-size: 50px;
+    color: black;
+    text-indent: 30px;
+}
+
+.philos-info h2{
+    margin: auto;
+    font-family: oranienbaum;
+    font-size: 40px;
+    color: black;
+    text-indent: 30px;
+}
+
+.philos-info h3{
+    font-family: oranienbaum;
+    font-size: 25px;
+    color: black;
+    text-indent: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.philos-info p
+{
+    text-indent: 30px;
+}
+
+.philos-info img {
+
+    display:block;
+    margin:auto;
+    padding-top: 30px;
+    width: 700px;
+    height: 500px;
+}
+
+.philos-infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.philos-photo-infosdop{
+       max-width: 320px;
+    background: #fff;
+    max-height: 650px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.philos-photo-infosdop:hover{
+
+    background: #f0e891;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.scale{
+    transition: 1s;
+}
+
+.scale:hover{
+    transform: scale(1.3);
+}
